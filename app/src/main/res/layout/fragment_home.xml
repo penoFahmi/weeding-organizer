@@ -179,12 +179,32 @@
         </LinearLayout>
 
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jadwal Pernikahan Terdekat"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#D81B60"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prioritas yang harus diselesaikan segera"
+            android:textSize="12sp"
+            android:textColor="#757575"
+            android:layout_marginBottom="16dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvUpcoming"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Aplikasi Siap Digunakan!"
-            android:gravity="center"
-            android:layout_marginTop="40dp"
-            android:textColor="#BDBDBD"/>
+            android:nestedScrollingEnabled="false"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
 
     </LinearLayout>
 </ScrollView>

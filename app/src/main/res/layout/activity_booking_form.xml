@@ -76,10 +76,13 @@
             android:id="@+id/btnPickDate"
             android:layout_width="match_parent"
             android:layout_height="55dp"
+
             android:text="PILIH TANGGAL (DD-MM-YYYY)"
             android:backgroundTint="#F48FB1"
             android:textColor="#880E4F"
-            android:drawableStart="@drawable/ic_list"/> <TextView
+            android:drawableStart="@drawable/ic_calendar"/>
+
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pilih Paket Wedding"

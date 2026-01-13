@@ -60,6 +60,7 @@
         android:layout_height="wrap_content"
         android:text="CETAK INVOICE (PDF)"
         android:backgroundTint="#2196F3"
+        android:drawableStart="@drawable/ic_print"
         android:layout_marginTop="16dp"/>
 
 </LinearLayout>

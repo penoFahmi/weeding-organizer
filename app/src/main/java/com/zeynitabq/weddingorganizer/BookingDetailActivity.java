@@ -132,7 +132,7 @@ public class BookingDetailActivity extends AppCompatActivity {
             paint.setColor(Color.BLACK);
             paint.setTextSize(24);
             paint.setFakeBoldText(true);
-            canvas.drawText("PENO WEDDING ORGANIZER", 50, 50, paint);
+            canvas.drawText("JAY WEDDING ORGANIZER", 50, 50, paint);
 
             paint.setTextSize(18);
             paint.setFakeBoldText(false);

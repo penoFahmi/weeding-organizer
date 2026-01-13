@@ -84,7 +84,7 @@ public class BookingFormActivity extends AppCompatActivity {
             imgQris.setVisibility(View.GONE); // Default QRIS sembunyi
 
             if (checkedId == R.id.rbTransfer) {
-                tvInfoRek.setText("BCA: 888-000-9999\na.n Peno Wedding Organizer");
+                tvInfoRek.setText("BCA: 888-000-9999\na.n Zay Wedding Organizer");
             } else if (checkedId == R.id.rbQris) {
                 tvInfoRek.setText("Scan QRIS berikut:");
                 imgQris.setVisibility(View.VISIBLE); // Munculkan QRIS
