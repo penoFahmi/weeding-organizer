@@ -89,6 +89,7 @@ public class BookingFormActivity extends AppCompatActivity {
                 tvInfoRek.setText("Scan QRIS berikut:");
                 imgQris.setVisibility(View.VISIBLE); // Munculkan QRIS
                 // Pastikan kamu punya gambar qris.png di drawable atau pakai ic_box sementara
+
             } else {
                 // Kalau Cash
                 layoutInfoBayar.setVisibility(View.GONE);
