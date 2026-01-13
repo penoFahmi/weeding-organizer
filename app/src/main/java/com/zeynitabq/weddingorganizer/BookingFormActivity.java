@@ -185,15 +185,6 @@ public class BookingFormActivity extends AppCompatActivity {
         int randomNum = new Random().nextInt(900) + 100;
         String trxCode = "INV-" + dateNow + "-" + randomNum;
 
-//        // SIMPAN KE DATABASE
-//        boolean success = dbHelper.addBooking(trxCode, name, phone, address, selectedDate, pkgNameClean, finalPrice, method, status);
-//
-//        if (success) {
-//            Toast.makeText(this, "Checkout Berhasil! Kode: " + trxCode, Toast.LENGTH_LONG).show();
-//            finish(); // Kembali ke List Booking
-//        } else {
-//            Toast.makeText(this, "Transaksi Gagal!", Toast.LENGTH_SHORT).show();
-//        }
         boolean success;
 
         if (isEditMode) {
